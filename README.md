@@ -1,44 +1,37 @@
 # Drone Force One
 
 **AI-Coordinated Emergency Drone Swarm**  
-Backpack-deployable rescue system for search, rescue, and supply drops in comms-dead disaster zones (wildfires, floods, missing persons).
+Backpack-deployable system for search, rescue, and supply drops in remote disaster zones.
 
-**100% Dene-owned Indigenous Tech** | Developed by Lyle Antoine – Full-Status Dene | Goulds, NL  
+**100% Dene-owned Indigenous Tech** | Lyle Antoine, Full-Status Dene | Goulds, NL  
 GitHub: github.com/lyleantoine-collab  
-Part of open-source resilience prototypes for Northern and Atlantic communities.
+Open-source prototypes for Northern/Atlantic resilience.
 
 ## Vision
-One-button deploy from a compact backpack launches 8–15 drones. High-velocity Archimedean spirals with LIDAR/thermal cover 1–2 km radius in under 2 minutes. Roles: scouts detect, boosters relay signals, haulers drop supplies.
+Rapid deploy of 8–15 drones for 1–2 km coverage in 2 minutes using high-speed spirals, LIDAR/thermal.
 
-Extends to Hive Truck (F350 mod) for 5km+ range in remote areas.
+Hive Truck extends range to 5km+ for remote SAR.
 
-## Core Features
-- **Backpack Swarm**: <10s deploy, modular carbon frames.
-- **High-Speed Mode**: 300+ km/h bursts, Archimedean/Fibonacci paths.
-- **AI Coordination**: Mode-specific (flood, wildfire, etc.) via SwarmCoordinator.
-- **Hardened Comms**: LoRa mesh + satellite uplink.
-- **Payload Drops**: Mode-tuned supplies (e.g., life vests, meds).
-- **Open-Source MIT License**: Community gifts, no paywalls.
+## Features
+- Modular roles: scouts (detect), boosters (relay), haulers (drop).
+- AI: Mode-specific (flood, wildfire) via SwarmCoordinator.
+- Hardened comms: LoRa + satellite.
+- Open-source MIT software.
 
-## Reconciliation & Impact
-Dene-led tools for Indigenous Guardians and remote SAR. Protects cultural sites, empowers communities.
+## Impact
+Dene-led SAR tools for Indigenous Guardians, cultural protection.
 
-## Simulations (Proof-of-Concept)
-- `sims/hive_truck_sim.py`: Truck deploys boosters + scouts with signal chain.
-- `sims/payload_drop_sim.py`: Detects victims, queues drops.
-- `sims/swarm_demo.ipynb` / `swarm_demo.py`: Interactive spirals + thermal pings.
-
-Run simulations to see coverage and detection in action.
+## Simulations
+- hive_truck_sim.py: Truck deployment with boosters.
+- payload_drop_sim.py: Victim detection + drops.
+- swarm_demo.ipynb/py: Spirals + pings.
 
 ## Tech Stack
-- Python + NumPy/Matplotlib (sims)
-- Raspberry Pi baseline
-- ArduPilot/MAVLink ready
-- Future: Sat-Shield encryption integration
+- Python/NumPy for sims.
+- Raspberry Pi baseline.
+- ArduPilot/MAVLink compatible.
 
 ## Call to Action
-Seeking $25k–$250k non-repayable grants for hardware prototypes and pilots (SAR NIF, ACOA, CanNor, PSIB streams).
-
-Contact: lyleantoine@gmail.com | 709-690-2908 | Goulds, NL
-
-#DeneTech #RescueSwarm #IndigenousResilience
+$25k–$250k grants for prototypes (SAR NIF, ACOA, CanNor, PSIB).  
+lyleantoine@gmail.com | 709-690-2908  
+#DeneTech #RescueSwarm
